@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="logica.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <center>
+        <div class="boton">
+        <input title="s" type = "checkbox" id="btn-switch" onclick="cambiar()">
+        <label for="btn-switch" class="lbl-switch"></label>
+        <label for="btn-switch"class="lbl-login">Login</label>
+        <label for="btn-switch"class="lbl-registro">Registro</label>
+        </div>
+    </center>
+    <form id="Login">
+        <center><h1>Niumz</h1></center>
+        <!--BOTONES-->
+        <img title="niumz-logo" src="/imagenes/niumz-logo.png">
+        <h3><center>Bienvenido a Niumz</center></h3>
+        <input input="text"  class="entrada_Login" id="email_Login" name="email" placeholder="E-mail" required/>
+        <input title="Contra" class="entrada_Login" input="password" id="password_Login" name="password" placeholder="Contraseña" required/>
+        <center><input type="submit" class="entrada_Login" id="entrar" value="Login"/></center>
+        <center><a class="link_login"   href="">¿Olvidaste tu Contraseña?</a></center>
+    </form>
+
+    <form id="Registro">
+        <center><h1>Niumz</h1></center>
+        <h3><center>Bienvenido a Niumz</center></h3>
+        <input input="text"  class="entrada_Registro"  id="Nombre" name="Nombre" placeholder="Nombre" required/>
+        <input input="text"  class="entrada_Registro"  id="Apellido" name="Apellido" placeholder="Apellido" required/>
+        <input input="text"  class="entrada_Registro"  id="email" name="email" placeholder="E-mail" required/>
+        <input title="Contra" class="entrada_Registro"  input="password" id="password_Registro" name="password" placeholder="Contraseña" required/>
+        <input input="text"  class="entrada_Registro"  id="telefono_Registro" name="telefono" placeholder="Telefono" required/>
+        <center><input   class="link_Registro"     type="submit" value="Registrar"/></center>
+    </form>
+</body>
+</html>
+

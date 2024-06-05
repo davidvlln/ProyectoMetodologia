@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+body{
+   /* display: flex; */
+    justify-content:center;
+    align-items: center; 
+}
+
+#Registro{
+    border-radius: 12px;
+    border: 5px solid #000; 
+    margin-top: 10px;
+    padding: 20px;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+#Login{
+    border-radius: 12px;
+    border: 5px solid #000; 
+    margin-top: 10px;
+    padding: 20px;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+#entrar{
+    width: 85vw;
+}
+
+.entrada_Login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.link_Registro{
+    margin-top: 20px;
+    width: 85vw;
+    height: 4vh;
+}
+.entrada_Registro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+} 
+
+
+
+.link_login{
+    margin-top:50px;
+    text-decoration: none;
+
+    color : #000; 
+}
+
+
+#Registro{
+display:none;
+}
+
+.boton{
+    margin: 10px;
+}
+
+.lbl-switch{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    background: rgb(229, 229, 229);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch:checked + .lbl-switch{
+    background: rgb(229, 229, 229);
+}
+
+#btn-switch:checked + .lbl-switch:after{
+    left: 120px;
+}
+
+
+.lbl-switch:after{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 50px;
+    background: rgb(19, 171, 213);
+    border-radius: 20px;
+    top: 0px;
+    left: 0px;
+    transition: 0.9s;
+}
+
+
+#btn-switch{
+    display: none;
+}
+
+.lbl-login{
+    position: absolute;
+    left: 80px;
+    top: 23px;
+}
+  
+.lbl-registro{
+    position: absolute;
+    left: 190px;
+    top: 23px;
+}
+  
